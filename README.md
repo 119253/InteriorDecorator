@@ -18,4 +18,4 @@ All inputs will be verified to make sure they are valid. If an input is not vali
 
 Once you hit the green submit button a receipt will be generated with all the details.
 
-[InteriorDecorator](https://user-images.githubusercontent.com/74497475/113365476-4d630800-934e-11eb-9671-e651cbe192ba.PNG)
+![InteriorDecorator](https://user-images.githubusercontent.com/74497475/113365476-4d630800-934e-11eb-9671-e651cbe192ba.PNG)
