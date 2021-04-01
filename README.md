@@ -1,4 +1,4 @@
-# InteriorDecorator!
+# InteriorDecorator
 
 
 This Tkinter GUI program is designed for you to get an estimation of the total cost of painting your room.
