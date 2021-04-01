@@ -1,0 +1,15 @@
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\bin\Debug\InteriorDecorator.exe.config
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\bin\Debug\InteriorDecorator.exe
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\bin\Debug\InteriorDecorator.pdb
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\MainWindow.g.cs
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\App.g.cs
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator_MarkupCompile.cache
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator_MarkupCompile.lref
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\MainWindow.baml
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator.g.resources
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator.Properties.Resources.resources
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator.csproj.GenerateResource.cache
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator.csproj.CoreCompileInputs.cache
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator.exe
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator.pdb
+C:\Users\Fouad\source\repos\InteriorDecorator\InteriorDecorator\obj\Debug\InteriorDecorator.csprojAssemblyReference.cache

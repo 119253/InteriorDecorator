@@ -1,0 +1,38 @@
+﻿<Window x:Class="InteriorDecorator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InteriorDecorator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="991.5" Width="500">
+    <Grid Background="#FF1695FF" Margin="0,0,0,-152">
+        <RadioButton x:Name="rbLuxury" Content="Luxury (£1.75/M²)" HorizontalAlignment="Left" Margin="22,60,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="rbStandard" Content="Standard (£1.00/M²)" HorizontalAlignment="Left" Margin="23,86,0,0" VerticalAlignment="Top" FontSize="16" IsChecked="True"/>
+        <RadioButton x:Name="rbEconomy" Content="Economy (£0.45/M²)" HorizontalAlignment="Left" Margin="22,111,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <CheckBox x:Name="cbUndercoat" Content="Undercoat (£0.50/M²)" HorizontalAlignment="Left" Margin="22,136,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="tbPaintType" HorizontalAlignment="Left" Margin="22,10,0,0" TextWrapping="Wrap" Text="Select a paint type (Undercoat is optional) " VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="tbRoomDimensions" HorizontalAlignment="Left" Margin="22,172,0,0" TextWrapping="Wrap" Text="Enter Room Dimensions (Meters)" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="tbHeight" HorizontalAlignment="Left" Margin="23,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Height="29"><Run Text="Height"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="tbLength" HorizontalAlignment="Left" Margin="22,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Text="Length"/>
+        <TextBlock x:Name="tbTotalArea" HorizontalAlignment="Left" Margin="22,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Text="Total Area"/>
+        <TextBox x:Name="tboxHeight" HorizontalAlignment="Left" Margin="132,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="62"/>
+        <TextBox x:Name="tboxLength" HorizontalAlignment="Left" Margin="132,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="62"/>
+        <Button x:Name="bCalculateArea" Content="Calculate Area" HorizontalAlignment="Left" Margin="22,336,0,0" VerticalAlignment="Top" Width="134" Height="34" FontSize="20" BorderBrush="Black" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Click="bCalculateArea_Click"/>
+        <TextBlock x:Name="tbDetails" HorizontalAlignment="Left" Margin="22,396,0,0" TextWrapping="Wrap" Text="Details (Contact &amp; Colour)" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <TextBlock x:Name="tbName" HorizontalAlignment="Left" Margin="24,448,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Height="29" Text="Name"/>
+        <TextBlock x:Name="tbEmail" HorizontalAlignment="Left" Margin="24,482,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Height="29" Text="Email"/>
+        <TextBlock x:Name="tbISBN" HorizontalAlignment="Left" Margin="23,516,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Height="29" Text="ISBN"/>
+        <TextBlock x:Name="tbPageNumber" HorizontalAlignment="Left" Margin="24,550,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Height="29"><Run Text="Page Number"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="tboxName" HorizontalAlignment="Left" Margin="174,448,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="250"/>
+        <TextBox x:Name="tboxEmail" HorizontalAlignment="Left" Margin="174,482,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="250"/>
+        <TextBox x:Name="tboxPageNumber" HorizontalAlignment="Left" Margin="174,550,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="250"/>
+        <TextBox x:Name="tboxISBN" HorizontalAlignment="Left" Margin="174,516,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="250"/>
+        <Button x:Name="bSubmit" Content="Submit" HorizontalAlignment="Left" Margin="94,603,0,0" VerticalAlignment="Top" Width="212" Height="61" FontSize="36" BorderBrush="Black" Click="bSubmit_Click" Background="#FF1AC100"/>
+        <Label x:Name="lbTotalArea" Content="" HorizontalAlignment="Left" Margin="126,288,0,0" VerticalAlignment="Top" Background="#FF1695FF" FontSize="20" Width="62" FontWeight="Bold" Height="43"/>
+        <Label x:Name="lbSummery" Content="" HorizontalAlignment="Left" Margin="0,684,0,0" VerticalAlignment="Top" Height="306" Width="492" Background="#FFB4B4B4" FontSize="20"/>
+        <Label x:Name="lbTotalCost" Content="" HorizontalAlignment="Left" Margin="161,331,0,0" VerticalAlignment="Top" Background="#FF1695FF" FontSize="20" Width="62" FontWeight="Bold" Height="43" Foreground="#FF1695FF"/>
+
+
+    </Grid>
+</Window>
